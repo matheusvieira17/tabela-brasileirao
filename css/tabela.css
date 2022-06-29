@@ -103,12 +103,32 @@ col:nth-child(even) {
     background-color: #F7F7F7;
 }
 
-tfoot > tr > td {
+tfoot tr td {
     font-size: 10px;
     color: #8F8F8F;
     text-align: left;
     text-transform: uppercase;
 }
+
+tfoot i:nth-child(1) {
+    color: var(--cor1-3);
+}
+
+tfoot i:nth-child(2) {
+    color: var(--cor4);
+}
+
+tfoot i:nth-child(3) {
+    color: var(--cor5-12);
+}
+
+tfoot i:nth-child(4) {
+    color: var(--cor17-20);
+}
+
+
+
+
 
 tfoot > tr:nth-child(2) > td {
     font-size: 10px;
