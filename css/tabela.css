@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+:root {
+    --corTime: #666666;
+
+    --cor1-3: #003366;
+    --cor4:#1398BE;
+    --cor5-12: #DE9800;
+    --cor13-16: #CCCCCC;
+    --cor17-20: #C91B04;
+
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0.5rem;
+}
+
+th, td {
+    border: 1px solid #DDDDDD;
+    padding: 0.8rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;  
+}
+
+thead > tr > th {
+    text-align: center;
+}
+
+tbody > tr > td {
+    color: #666666;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+tbody > tr > td:nth-child(2) {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+tbody > tr > td:nth-child(1) {
+    text-align: left;
+    width: 200px;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--corTime);
+    text-align: left;
+    
+}
+
+.especial {
+    border-top: 2px solid #CCCCCC;
+}
+
+.posicao {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.libertadores {
+    color: var(--cor1-3)
+}
+
+.preLibertadores {
+    color: var(--cor4);
+}
+
+.sulamericana {
+    color: var(--cor5-12)
+}
+
+.normal {
+    color: var(--cor13-16)
+}
+
+.rebaixamento {
+    color: var(--cor17-20);
+}
+
+
+.pontos {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+col:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+tfoot > tr > td {
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+tfoot > tr:nth-child(2) > td {
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+}
+
+
+footer {
+    background-color: #e4eef1;
+    margin-top: 10%;
+    text-align: center;
+    padding: 0.3rem;
+    width: 100vw;  
+}
+
+footer p {
+    font-style: oblique;
+    opacity: 0.5;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    transition-duration: 0.3s ease;
+}
