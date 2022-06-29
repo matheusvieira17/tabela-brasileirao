@@ -12,5 +12,3 @@
     - Uso de pseudo classes (nth:child)  
     - Variáveis para reuso de código
     - transitions
-
-- Projeto completo em: 
